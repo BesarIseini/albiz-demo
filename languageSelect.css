@@ -1,0 +1,54 @@
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.custom-select-trigger {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.custom-select-trigger img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.custom-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 999;
+    display: none;
+}
+
+.custom-option {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.custom-option img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.custom-option:hover {
+    background-color: #f0f0f0;
+}

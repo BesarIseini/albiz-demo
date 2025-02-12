@@ -1,0 +1,103 @@
+{
+    "metadata": {
+        "title": "Languages"
+    },
+    "languages": {
+        "en": {
+            "id": "en",
+            "languageNameEN": "English",
+            "languageName": "English",
+            "desc": "General Website Languages",
+            "flagSrc": "https://flagcdn.com/gb.svg",
+            "flagAlt": ""
+        },
+        "al": {
+            "id": "al",
+            "languageNameEN": "Albanian",
+            "languageName": "Shqip",
+            "desc": "General Website Languages",
+            "flagSrc": "https://flagcdn.com/al.svg",
+            "flagAlt": ""
+        },
+        "mk": {
+            "id": "mk",
+            "languageNameEN": "Macedonian",
+            "languageName": "Македонски",
+            "desc": "General Website Languages",
+            "flagSrc": "https://flagcdn.com/mk.svg",
+            "flagAlt": ""
+        },
+        "de": {
+            "id": "de",
+            "languageNameEN": "German",
+            "languageName": "Deutsch",
+            "desc": "General Website Languages",
+            "flagSrc": "https://flagcdn.com/de.svg",
+            "flagAlt": ""
+        },
+        "fr": {
+            "id": "fr",
+            "languageNameEN": "French",
+            "languageName": "Française",
+            "desc": "General Website Languages",
+            "flagSrc": "https://flagcdn.com/fr.svg",
+            "flagAlt": ""
+        },
+        "bg": {
+            "id": "bg",
+            "languageNameEN": "Bulgarian",
+            "languageName": "български",
+            "desc": "Erasmus: Smart Classes for Generation Z",
+            "flagSrc": "https://flagcdn.com/bg.svg",
+            "flagAlt": ""
+        },
+        "lt": {
+            "id": "lt",
+            "languageNameEN": "Lithuanian",
+            "languageName": "Lietuvių",
+            "desc": "Erasmus: Smart Classes for Generation Z",
+            "flagSrc": "https://flagcdn.com/lt.svg",
+            "flagAlt": ""
+        },
+        "es": {
+            "id": "es",
+            "languageNameEN": "Spanish",
+            "languageName": "Español",
+            "desc": "",
+            "flagSrc": "https://flagcdn.com/es.svg",
+            "flagAlt": ""
+        },
+        "no": {
+            "id": "no",
+            "languageNameEN": "Norwegian",
+            "languageName": "Norsk",
+            "desc": "",
+            "flagSrc": "https://flagcdn.com/no.svg",
+            "flagAlt": ""
+        },
+        "tr": {
+            "id": "tr",
+            "languageNameEN": "Turkish",
+            "languageName": "Türkçe",
+            "desc": "",
+            "flagSrc": "https://flagcdn.com/tr.svg",
+            "flagAlt": ""
+        },
+        "pt": {
+            "id": "pt",
+            "languageNameEN": "Portuguese",
+            "languageName": "Português",
+            "desc": "",
+            "flagSrc": "https://flagcdn.com/pt.svg",
+            "flagAlt": ""
+        },
+        "ro": {
+            "id": "ro",
+            "languageNameEN": "Romanian",
+            "languageName": "Romanesc",
+            "desc": "",
+            "flagSrc": "https://flagcdn.com/ro.svg",
+            "flagAlt": ""
+        }
+    }
+}

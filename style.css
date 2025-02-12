@@ -1,0 +1,54 @@
+.media1 {
+    margin-left: 20%;
+    width: 200px;
+}
+
+#myChart {
+    width:100%; 
+    max-width:800px; 
+    height:500px;
+    margin-left: 35%;
+    /* position:relative;
+    z-index: -1; */
+}
+
+
+#myChart2 {
+    float: left; 
+    width:100%; 
+    max-width:800px; 
+    height:500px;
+    margin-left: 10%;
+    }
+
+
+    /* style="float: right; width:200%; max-width:800px; height:400px;position: relative;top: -200px;margin-right: 5%;" */
+@media only screen and (max-width: 1400px) {
+    .media1 {
+        margin-left: 8%;
+    }
+
+    #myChart {
+        width:100%; 
+        max-width:800px; 
+        height:500px;
+        margin-left: 28%;
+        position:relative;
+        z-index: -1;    
+    }
+  }
+
+
+td, tr, th {
+    border: black solid 2px;
+    padding: 4px;
+}
+
+td, tr {
+    font-size: larger;
+}
+
+
+table {
+    border: black solid 5px;
+}

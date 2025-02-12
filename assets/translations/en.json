@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "title": "English",
+        "id": "en",
+        "flag": "ASDSADASADS"
+    },
+    "translation": {
+        "MUNICIPALITY_STATISTICS": "Municipality Statistics",
+        "MUNICIPALITY": "Municipality",
+        "MUNICIPALITY1": "Municipality 1",
+        "MUNICIPALITY2": "Municipality 2",
+        "MALES": "Males",
+        "FEMALES": "Females",
+        "YEAR": "Year"
+    }
+}

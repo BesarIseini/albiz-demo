@@ -1,0 +1,416 @@
+{
+    "komunat": [
+        {
+            "komuna": "Saraj",
+            "isoID": "MK811",
+            "id": 23,
+            "vitet": [
+                {
+                    "viti": 2018,
+                    "populsi" : 41797,
+                    "me_pun" : 19570,
+                    "meshkuj_me_pun" : 15702,
+                    "femna_me_pun" : 3877,
+                    "publik" : 11255,
+                    "privat" : 8334,
+                    "pa_pun" : 22105,
+                    "meshkuj_pa_pun" : 10853,
+                    "femna_pa_pun" : 11444,
+                    "budget" : 225600123
+                },
+                {
+                    "viti": 2019,
+                    "populsi" : 42318,
+                    "me_pun" : 19861,
+                    "meshkuj_me_pun" : 15840,
+                    "femna_me_pun" :3951,
+                    "publik" : 11871,
+                    "privat" : 8620,
+                    "pa_pun" : 22127,
+                    "meshkuj_pa_pun" : 10465,
+                    "femna_pa_pun" : 11962,
+                    "budget" : 368424123
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 42724,
+                    "me_pun" : 20354,
+                    "meshkuj_me_pun" : 16142,
+                    "femna_me_pun" : 4122,
+                    "publik" : 11473,
+                    "privat" : 8521,
+                    "pa_pun" : 21529,
+                    "meshkuj_pa_pun" : 11063,
+                    "femna_pa_pun" : 11666,
+                    "budget" : 495214557                    
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 43129,
+                    "me_pun" : 20604,
+                    "meshkuj_me_pun" : 16279,
+                    "femna_me_pun" : 4186,
+                    "publik" : 11710,
+                    "privat" : 8576,
+                    "pa_pun" : 21005,
+                    "meshkuj_pa_pun" : 10850,
+                    "femna_pa_pun" : 11246,
+                    "budget" : 482892562 
+                }
+            ]
+        },
+        {
+            "komuna": "Karposh",
+            "isoID": "MK808",
+            "id": 41,
+            "vitet": [
+                {
+                    "viti" : 2018,
+                    "populsi" : 60754,
+                    "me_pun" : 35431,
+                    "meshkuj_me_pun" : 18752,
+                    "femna_me_pun" : 16812,
+                    "publik" : 21850,
+                    "privat" : 14031,
+                    "pa_pun" : 24135,
+                    "meshkuj_pa_pun" : 11200,
+                    "femna_pa_pun" : 14168,            
+                    "budget" : 2396409000
+                },
+                {
+                    "viti" : 2019,
+                    "populsi" : 60862,
+                    "me_pun" : 35721,
+                    "meshkuj_me_pun" : 18952,
+                    "femna_me_pun" : 16921,
+                    "publik" : 22013,
+                    "privat" : 14120,
+                    "pa_pun" : 24394,
+                    "meshkuj_pa_pun" : 11018,
+                    "femna_pa_pun" : 13980,
+                    "budget" : 1839327000
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 60934 ,
+                    "me_pun" : 36063,
+                    "meshkuj_me_pun" :19184,
+                    "femna_me_pun" : 17134,
+                    "publik" : 22216,
+                    "privat" : 14203,
+                    "pa_pun" : 24587,
+                    "meshkuj_pa_pun" : 10818,
+                    "femna_pa_pun" : 13768,
+                    "budget" : 1445328164                   
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 61167,
+                    "me_pun" : 36721,
+                    "meshkuj_me_pun" : 19364,
+                    "femna_me_pun" : 17320,
+                    "publik" : 22468,
+                    "privat" : 14462,
+                    "pa_pun" : 24394,
+                    "meshkuj_pa_pun" : 10620,
+                    "femna_pa_pun" : 14001,
+                    "budget" : 1283428000
+                }
+            ]
+        },
+        {
+            "komuna": "Tetovo",
+            "isoID": "MK609",
+            "id": 80,
+            "vitet": [
+                {
+                    "viti" : 2018,
+                    "populsi" : 86601,
+                    "me_pun" : 58431,
+                    "meshkuj_me_pun" : 38752,
+                    "femna_me_pun" : 19679,
+                    "publik" : 32850,
+                    "privat" : 22581,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 13340,
+                    "femna_pa_pun" : 13000,
+                    "budget" : 1840939239
+                },
+                {
+                    "viti" : 2019,
+                    "populsi" : 84654,
+                    "me_pun" : 57831,
+                    "meshkuj_me_pun" : 38752,
+                    "femna_me_pun" : 19679,
+                    "publik" : 32850,
+                    "privat" : 22581,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 13340,
+                    "femna_pa_pun" : 13000,
+                    "budget" : 1507574133
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 84712,
+                    "me_pun" : 58131,
+                    "meshkuj_me_pun" : 38252,
+                    "femna_me_pun" : 19479,
+                    "publik" : 32150,
+                    "privat" : 22281,
+                    "pa_pun" : 25940,
+                    "meshkuj_pa_pun" : 13040,
+                    "femna_pa_pun" : 12800,
+                    "budget" : 1716731244             
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 84770,
+                    "me_pun" : 58431,
+                    "meshkuj_me_pun" : 38752,
+                    "femna_me_pun" : 19679,
+                    "publik" : 32850,
+                    "privat" : 22581,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 13340,
+                    "femna_pa_pun" : 13000,
+                    "budget" : 1990093580
+                }
+            ]
+        },
+        {
+            "komuna": "Cair",
+            "isoID": "MK815",
+            "id": 44,
+            "vitet": [
+                {
+                    "viti" : 2018,
+                    "populsi" : 64772,
+                    "me_pun" : 35431,
+                    "meshkuj_me_pun" : 18752,
+                    "femna_me_pun" : 16812,
+                    "publik" : 21850,
+                    "privat" : 14031,
+                    "pa_pun" : 24135,
+                    "meshkuj_pa_pun" : 11200,
+                    "femna_pa_pun" : 14168,
+                    "budget" : 1430745620
+                },
+                {   
+                    "viti" : 2019,
+                    "populsi" : 64788,
+                    "me_pun" : 35431,
+                    "meshkuj_me_pun" : 18752,
+                    "femna_me_pun" : 16812,
+                    "publik" : 21850,
+                    "privat" : 14031,
+                    "pa_pun" : 24135,
+                    "meshkuj_pa_pun" : 11200,
+                    "femna_pa_pun" : 14168,
+                    "budget" : 855257588
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 64786,
+                    "me_pun" : 35431,
+                    "meshkuj_me_pun" : 18752,
+                    "femna_me_pun" : 16812,
+                    "publik" : 21850,
+                    "privat" : 14031,
+                    "pa_pun" : 24135,
+                    "meshkuj_pa_pun" : 11200,
+                    "femna_pa_pun" : 14168,
+                    "budget" : 900432122
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 64763,
+                    "me_pun" : 35431,
+                    "meshkuj_me_pun" : 18752,
+                    "femna_me_pun" : 16812,
+                    "publik" : 21850,
+                    "privat" : 14031,
+                    "pa_pun" : 24135,
+                    "meshkuj_pa_pun" : 11200,
+                    "femna_pa_pun" : 14168,
+                    "budget" : 982621751
+                }
+            ]
+        },
+        {
+            "komuna": "Skopje",
+            "isoID": "MK810",
+            "id": 63,
+            "vitet": [
+                {
+                    "viti" : 2018,
+                    "populsi" : 589500,
+                    "me_pun" : 35431,
+                    "meshkuj_me_pun" : 260000,
+                    "femna_me_pun" : 122000,
+                    "publik" : 200000,
+                    "privat" : 140310,
+                    "pa_pun" : 220135,
+                    "meshkuj_pa_pun" : 112000,
+                    "femna_pa_pun" : 141680,
+                    "budget" : 6177000000
+                },
+                {                       
+                    "viti" : 2019,
+                    "populsi" : 595000,
+                    "me_pun" : 392431,
+                    "meshkuj_me_pun" : 255000,
+                    "femna_me_pun" : 117000,
+                    "publik" : 195000,
+                    "privat" : 130310,
+                    "pa_pun" : 230135,
+                    "meshkuj_pa_pun" : 118000,
+                    "femna_pa_pun" : 143680,
+                    "budget" : 6488700000
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 600800,
+                    "me_pun" : 401200,
+                    "meshkuj_me_pun" : 260000,
+                    "femna_me_pun" : 122000,
+                    "publik" : 200000,
+                    "privat" : 140310,
+                    "pa_pun" : 220135,
+                    "meshkuj_pa_pun" : 112000,
+                    "femna_pa_pun" : 141680,
+                    "budget" : 6842000000
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 606000,
+                    "me_pun" : 404310,
+                    "meshkuj_me_pun" : 270000,
+                    "femna_me_pun" : 130000,
+                    "publik" : 258500,
+                    "privat" : 140310,
+                    "pa_pun" : 210690,
+                    "meshkuj_pa_pun" : 112000,
+                    "femna_pa_pun" : 141680,
+                    "budget" : 7258200000
+                }
+            ]
+        },
+        {
+            "komuna": "Struga",
+            "isoID": "MK312",
+            "id": 1,
+            "vitet": [
+                {
+                    "viti" : 2018,
+                    "populsi" : 65800,
+                    "me_pun" : 46134,
+                    "meshkuj_me_pun" : 29243,
+                    "femna_me_pun" : 16891,
+                    "publik" : 28465,
+                    "privat" : 17892,
+                    "pa_pun" : 19843,
+                    "meshkuj_pa_pun" : 7432,
+                    "femna_pa_pun" : 12482,
+                    "budget" : 987654892
+                },
+                {                       
+                    "viti" : 2019,
+                    "populsi" : 65816,
+                    "me_pun" : 46621,
+                    "meshkuj_me_pun" : 29438,
+                    "femna_me_pun" : 16645,
+                    "publik" : 28684,
+                    "privat" : 18943,
+                    "pa_pun" : 19689,
+                    "meshkuj_pa_pun" : 7016,
+                    "femna_pa_pun" : 12218,
+                    "budget" : 1045546269
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 65814,
+                    "me_pun" : 45212,
+                    "meshkuj_me_pun" : 28956,
+                    "femna_me_pun" : 16231,
+                    "publik" : 28153,
+                    "privat" : 18767,
+                    "pa_pun" : 19689,
+                    "meshkuj_pa_pun" : 7716,
+                    "femna_pa_pun" : 12568,
+                    "budget" : 1067181015 
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 65791,
+                    "me_pun" : 46244,
+                    "meshkuj_me_pun" : 29684,
+                    "femna_me_pun" : 17132,
+                    "publik" : 28865,
+                    "privat" : 17992,
+                    "pa_pun" : 19643,
+                    "meshkuj_pa_pun" : 7232,
+                    "femna_pa_pun" : 12182,
+                    "budget" : 1094835167
+                }
+            ]
+        },
+        {
+            "komuna": "Gostivar",
+            "isoID": "MK604",
+            "id": 5,
+            "vitet": [
+                {
+                    "viti" : 2018,
+                    "populsi" : 82724,
+                    "me_pun" : 54431,
+                    "meshkuj_me_pun" : 34801,
+                    "femna_me_pun" : 19679,
+                    "publik" : 36850,
+                    "privat" : 18200,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 17340,
+                    "femna_pa_pun" : 9800,
+                    "budget" : 927000000
+                },
+                {
+                    "viti" : 2019,
+                    "populsi" : 83245,
+                    "me_pun" : 57831,
+                    "meshkuj_me_pun" : 34801,
+                    "femna_me_pun" : 19679,
+                    "publik" : 36850,
+                    "privat" : 18200,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 17340,
+                    "femna_pa_pun" : 9800,
+                    "budget" : 997000000
+                },
+                {
+                    "viti" : 2020,
+                    "populsi" : 83712,
+                    "me_pun" : 58131,
+                    "meshkuj_me_pun" : 34801,
+                    "femna_me_pun" : 19679,
+                    "publik" : 36850,
+                    "privat" : 18200,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 17340,
+                    "femna_pa_pun" : 9800,
+                    "budget" : 1072000000             
+                },
+                {
+                    "viti" : 2021,
+                    "populsi" : 84470,
+                    "meshkuj_me_pun" : 34801,
+                    "femna_me_pun" : 19679,
+                    "publik" : 36850,
+                    "privat" : 18200,
+                    "pa_pun" : 26340,
+                    "meshkuj_pa_pun" : 17340,
+                    "femna_pa_pun" : 9800,
+                    "budget" : 1146000000
+                }
+            ]
+        }
+    ]
+}

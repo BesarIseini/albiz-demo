@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <link rel="stylesheet" href="languageSelect.css">
+        <style>
+          #map {
+            width: 1000px;
+            height: 750px;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="select-container"></div>
+        <h3 style="font-size: 50px;font-family: sans-serif; position: relative; z-index: 1; text-align: center;"
+        translation="MUNICIPALITY_STATISTICS"
+        ></h1>
+        <input id="Select1" class="media1" list="komunat" style="width:
+            250px;font-size:30px;border-radius: 15px;margin-top:
+            100px;margin-left: 25%;box-shadow: black 3px 3px 3px;height: auto; "
+            id="inputi" placeholder="Municipality" translation="MUNICIPALITY" translationType="placeholder">
+            
+        <datalist id="komunat">
+
+            <option value="Berovo">Berovo</option>
+            <option value="Obleševo">Obleševo</option>
+            <option value="Delčevo"> Delčevo</option>
+            <option value="Karbinci">Karbinci</option>
+            <option value="Kočani">Kočani</option>
+            <option value="Makedonska Kamenica">Makedonska Kamenica</option>
+            <option value="Pehčevo">Pehčevo</option>
+            <option value="Probištip">Probištip</option>
+            <option value="Štip">Štip</option>
+            <option value="Vinica">Vinica</option>
+            <option value="Zrnovci">Zrnovci</option>
+            <option value="Kratovo">Kratovo</option>
+            <option value="Kriva Palanka">Kriva Palanka</option>
+            <option value="Kumanovo">Kumanovo</option>
+            <option value="Lipkovo">Lipkovo</option>
+            <option value="Rankovce">Rankovce</option>
+            <option value="Staro Nagoričane">Staro Nagoričane</option>
+            <option value="Bitola">Bitola</option>
+            <option value="Demir Hisar">Demir Hisar</option>
+            <option value="Dolneni">Dolneni</option>
+            <option value="Krivogaštani">Krivogaštani</option>
+            <option value="Mogila">Mogila</option>
+            <option value="Novaci">Novaci</option>
+            <option value="Prilep">Prilep</option>
+            <option value="Resen">Resen</option>
+            <option value="Bogovinje">Bogovinje</option>
+            <option value="Brvenica">Brvenica</option>
+            <option value="Gostivar">Gostivar</option>
+            <option value="Jegunovce">Jegunovce</option>
+            <option value="Rostuša">Rostuša</option>
+            <option value="Tearce">Tearce</option>
+            <option value="Tetovo">Tetovo</option>
+            <option value="Vrapčište">Vrapčište</option>
+            <option value="Želino">Želino</option>
+            <option value="Aerodrom">Aerodrom</option>
+            <option value="Aračinovo">Aračinovo</option>
+            <option value="Butel">Butel</option>
+            <option value="Cair">Cair</option>
+            <option value="Centar">Centar</option>
+            <option value="Čučer Sandevo">Čučer Sandevo</option>
+            <option value="Gazi Baba">Gazi Baba</option>
+            <option value="Ǵorče Petrov">Ǵorče Petrov</option>
+            <option value="Ilinden">Ilinden</option>
+            <option value="Karposh">Karposh</option>
+            <option value="Kisela Voda">Kisela Voda</option>
+            <option value="Petrovec">Petrovec</option>
+            <option value="Saraj">Saraj</option>
+            <option value="Sopište">Sopište</option>
+            <option value="Studeničani">Studeničani</option>
+            <option value="Šuto Orizari">Šuto Orizari</option>
+            <option value="Zelenikovo">Zelenikovo</option>
+            <option value="Bogdanci">Bogdanci</option>
+            <option value="Bosilovo">Bosilovo</option>
+            <option value="Gevgelija">Gevgelija</option>
+            <option value="Star Dojran">Star Dojran</option>
+            <option value="Konče">Konče</option>
+            <option value="Novo Selo">Novo Selo</option>
+            <option value="Radoviš">Radoviš</option>
+            <option value="Strumica">Strumica</option>
+            <option value="Valandovo">Valandovo</option>
+            <option value="Vasilevo">Vasilevo</option>
+            <option value="Centar Župa">Centar Župa</option>
+            <option value="Debar">Debar</option>
+            <option value="Belčišta">Belčišta</option>
+            <option value="Kičevo">Kičevo</option>
+            <option value="Makedonski Brod">Makedonski Brod</option>
+            <option value="Ohrid">Ohrid</option>
+            <option value="Plasnica">Plasnica</option>
+            <option value="Struga">Struga</option>
+            <option value="Vevčani">Vevčani</option>
+            <option value="Čaška">Čaška</option>
+            <option value="Demir Kapija">Demir Kapija</option>
+            <option value="Gradsko">Gradsko</option>
+            <option value="Kavadarci">Kavadarci</option>
+            <option value="Negotino">Negotino</option>
+            <option value="Rosoman">Rosoman</option>
+            <option value="Sveti Nikole">Sveti Nikole</option>
+            <option value="Lozovo">Lozovo</option>
+            <option value="Veles">Veles</option>
+            <option value="Skopje">Skopje</option>
+            <option value="All">All</option>
+
+        </datalist>
+
+        <select onchange="yearSelect(0)" id="vitit0" style="z-index: 1; position:
+            relative; width: 250px;font-size:30px;border-radius:
+            15px;margin-top: 100px;margin-left: 100px;height: auto; box-shadow:
+            black 3px 3px 3px; background-color: white; color: grey;"
+            placeholder="Year">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="All">All</option>
+        </select>
+
+        <select onchange="gender()" id="gjinia" style="width:
+            250px;font-size:30px;border-radius: 15px;margin-top:
+            100px;margin-left: 100px;height: auto;box-shadow: black 3px 3px 3px;
+            background-color: white; color: grey;border: solid black 1px;"
+            placeholder="Gender">
+
+            <option value="males">Males</option>
+            <option value="females">Females</option>
+        </select>
+
+
+        <div id="chartEnable">
+          <div id="pie">
+            <div style="position: relative;top: 10px;"
+            id="myChart">
+            </div>
+          </div>
+
+          <div id="line">
+            <div style="width: auto;">
+              <div id="chart_div"></div>
+            </div>
+          </div>
+
+        </div>
+        <div id="tableEnable">
+          <div id="table_div"></div>
+        </div>
+
+        
+
+        <div id="map"></div>
+
+        <div>
+
+            <input type="text" id="komunatCompare1" list="komunat"
+                style="z-index: 1; position: relative; width:
+                250px;font-size:30px;border-radius: 15px;margin-top:
+                100px;margin-left: 25%;height: auto;box-shadow: black 3px 3px
+                3px; " placeholder="Municipality 1">
+
+
+            <select onchange="yearSelect(1)" id="vitit1" style="z-index: 1;
+                position: relative; width: 250px;font-size:30px;border-radius:
+                15px;margin-top: 100px;margin-left: 100px;height: auto;
+                box-shadow: black 3px 3px 3px; background-color: white; color:
+                grey;" placeholder="Year">
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+
+
+            <input id="komunatCompare2" list="komunat" style="z-index: 1;
+                position: relative; width: 250px;font-size:30px;border-radius:
+                15px;margin-top: 100px;margin-left: 100px;height: auto;
+                box-shadow: black 3px 3px 3px; " placeholder="Municipality 2">
+        </div>
+        <div style="text-align: center;">
+          <h3 style="font-size: 50px;font-family: sans-serif; position: relative; z-index: 1; text-align: center;">Compare Municipalities</h1>
+        </div>
+        <div  
+                  id="myChart2" style="padding-right: 50px;">
+                  </div>
+                  <div style="margin-left: 45%; position: relative;top: 100px; position: relative; z-index: 1; float: left; margin-left: -200px;">
+                   <p>
+                    Municipality: <span id="municipality"> </span>
+                   </p>
+                   <p>
+                    Population: <span id="population"> </span>
+                   </p>
+                   <p>
+                     Employed: <span id="employed"> </span>
+                   </p>
+                   <p>
+                     Public Sector: <span id="public_work"> </span>
+                   </p>
+                   <p>
+                     Privat Sector: <span id="private_work"> </span>
+                   </p>
+                   <p>
+                     Unemployed: <span id="unemployed"> </span>
+                   </p>
+                 </div>
+            <div style=" position: relative;top: 100px; position: relative; z-index: 1; float: left;">
+              <p>
+                Municipality: <span id="municipality2"> </span>
+              </p>
+              <p>
+                Population: <span id="population2"> </span>
+              </p>
+              <p>
+                Employed: <span id="employed2"> </span>
+              </p>
+              <p>
+                Public Sector: <span id="public_work2"> </span>
+              </p>
+              <p>
+                Private Sector: <span id="private_work2"> </span>
+              </p>
+              <p>
+                Unemployed <span id="unemployed2"> </span>
+              </p>
+            </div>
+             <div  
+             id="myChart3" style="float: left; width:100%; max-width:800px; height:700px;position: relative;top: -290px;">
+            </div>
+            </div>
+
+            <div style="text-align: center;">
+              <h1 style="font-size: 50px;font-family: sans-serif;margin-left: 700px; position: relative;top: 700px;left: -500px; z-index: 1;">Compare the Budgets</h1>
+            </div>
+            
+            <div >
+
+              <input type="text"   id="budget1" list="komunat" style="z-index: 1; position: relative; width: 250px;font-size:30px;border-radius: 15px;margin-top: 100px;margin-left: 25%;height: auto;box-shadow: black 3px 3px 3px;  " placeholder="Municipality 1">
+              
+              
+                         <input onchange="yearSelect(3)" id="vitit3" list="Bуџет" style="z-index: 1; position: relative; width: 250px;font-size:30px;border-radius: 15px;margin-top: 100px;margin-left: 100px;height: auto; box-shadow: black 3px 3px 3px; " placeholder="Year">
+            <datalist id="Bуџет">
+             <option value="2018"></option>
+             <option value="2019"></option>
+             <option value="2020"></option>
+             <option value="2021"></option>
+             <option value="2022"></option>
+            </datalist>
+              
+              
+                         <input id="budget2" list="komunat" style="z-index: 1; position: relative; width: 250px;font-size:30px;border-radius: 15px;margin-top: 100px;margin-left: 100px;height: auto; box-shadow: black 3px 3px 3px; " placeholder="Municipality 2">
+                        
+              
+                              </div>
+            
+
+          <div
+             id="myChart4" style="float: right; width:150%; max-width:900px; height:500px;position: relative;top: 100px;left: -290px;">
+             </div>
+
+        <script src="/dist/language/pageTranslator.js"></script>
+        <script src="/dist/language/pageLanguageSelect.js"></script>
+        <script src="/dist/script.js"></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+        <script src="/assets/geoData/mk.js"></script>
+        <script src="/dist/map.js"></script>
+    </body>
+</html>
